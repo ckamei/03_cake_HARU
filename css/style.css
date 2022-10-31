@@ -1,0 +1,341 @@
+@media screen and (min-width:768px) {
+
+body {
+  background-color: white;
+  font-size: 0.9em;
+  letter-spacing: 0.17em;
+  line-height: 146%;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',serif;
+}
+
+.bg-slider {
+	width: 100%;
+  height: 700px;
+	background-position:center center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+header{
+  background-color:rgba(255,255,255,0.8);
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+header a {
+  position: relative;
+  display: inline-block;
+  transition: .3s;
+  text-decoration: none;
+  color: #000;
+  line-height: 180%;
+  margin-bottom: 10%;
+}
+header a::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  content: '';
+  width: 0;
+  height: 1px;
+  background-color: lightgray;
+  transition: .3s;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+header a:hover::after {
+  width: 100%;
+}
+
+.fa-instagram  {
+  font-size: 1.6em;
+}
+.fa-facebook-square {
+  font-size: 1.6em;
+}
+
+#Drawer {
+  display: none;
+}
+.Drawer {
+  display: none;
+}
+
+.g-nav-menu {
+text-align: center;
+}
+.g-nav-menu li{
+padding: 0 2%;
+list-style-type: none;
+display: inline-block;
+line-height: 400%;
+font-size: 1em;
+}
+
+.fixed{
+position: fixed;
+top: 0;
+left: 0;
+}
+.fixed .g-nav-menu li{
+line-height: 40px;
+}
+
+.cf {
+  width: 1000px;
+  margin:0 auto;
+}
+
+.logo {
+  text-align: center;
+  max-width:260px;
+}
+
+.lineover {
+  text-align: center;
+}
+
+.lineover img {
+  width: 250px;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  padding-top: 1%;
+  padding-bottom: 6%;
+  text-align: center;
+}
+
+.about {
+  padding: 5% 13%;
+}
+
+h3 {
+  font-size: 1.1em;
+  padding-bottom: 0.5em;
+}
+
+.rawsweet {
+  padding: 6% 12% 8% 12%;
+  background-color: #ffc6c6;
+  background-image: url(../img/rawsweet.png);
+  background-position: right bottom;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+.material {
+  padding: 6% 7% 8% 7%;
+}
+
+.goodbadimg {
+  width: 80%;
+  margin:0 5% 7%;
+}
+
+.good {
+  float: left;
+  width: 45%;
+}
+
+.bad {
+  float: right;
+  width: 45%;
+}
+
+.spmenu {
+  display: none;
+}
+
+.container-search__sort {
+  text-align: right;
+  margin-bottom: 2%;
+}
+
+.menu {
+  background-color: #ffd797;
+  padding: 6% 1% 3% 1%;
+}
+
+.menu-contents {
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+word-break: break-all;
+justify-content: space-around;
+}
+
+.menu-box {
+  width: 30%;
+  text-align: center;
+}
+
+
+.img-box01 {
+  height: 81%;
+}
+
+.menu-box img {
+  width: 100%;
+}
+
+h4 {
+  text-align: center;
+  letter-spacing: 0.09em;
+}
+
+.cakename {
+  text-align: center;
+  font-size: 0.8em;
+  letter-spacing: 0.06em;
+  line-height: 130%;
+  padding-bottom: 4%;
+}
+
+.caketext {
+  padding: 0 10% 2% 10%;
+  text-align: left;
+}
+
+h5 {
+  text-align: center;
+  letter-spacing: 0.15em;
+  padding:3% 0;
+}
+
+form {
+  padding-bottom: 9%;
+}
+
+.guide {
+  padding: 6% 15%;
+  background-image: url(../img/bg2.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.reserve {
+  float: left;
+  width: 47%;
+}
+
+.send {
+  float: right;
+  width: 47%;
+}
+
+.clear {
+  clear: both;
+}
+
+.preserve {
+  margin-top: 6%;
+}
+
+.sns {
+  padding: 6%;
+}
+
+.insta {
+  float: left;
+}
+
+.facebook {
+  float: right;
+}
+
+.message {
+  padding: 6% 15%;
+  background-color: #ffc6c6;
+}
+
+.messagetable {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 13%;
+  letter-spacing: 0.15em;
+  line-height: 185%;
+}
+
+.message1 {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.message2 {
+  text-align: right;
+}
+
+.lineunder {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.lineunder img {
+  width: 250px;
+}
+
+.spcompany {
+  display: none;
+}
+
+.company {
+  padding: 6% 16% 6% 16%;
+}
+
+.company h3 {
+  padding-bottom: 3%;
+}
+
+.company span {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #ffd797;
+  font-size: 0.8em;
+}
+
+.links {
+  padding-top: 1%;
+}
+
+footer a {
+  color: black;
+}
+
+button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+}
+
+/* micro clearfx */
+.cf:before,
+.cf:after{
+  content: "";
+  display: table;
+}
+.cf:after{ clear: both; }
+.cf{ zoom: 1; } /* For IE 6/7 */
+
+}
+
+@media screen and (max-width: 1024px) {
+
+.sns {
+  display: none;
+}
+
+}

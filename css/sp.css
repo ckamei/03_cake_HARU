@@ -1,0 +1,350 @@
+@media screen and (max-width:767px) {
+
+body {
+  background-color: white;
+  font-size: 0.8em;
+  letter-spacing: 0.17em;
+  line-height: 146%;
+  font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN',serif;
+}
+
+.g-nav {
+  display: none;
+}
+
+/* ハンバーガーメニュー */
+.Drawer {
+  width:25px;
+  height:30px;
+  top: 2%;
+  right:2%;
+  position:fixed;
+  cursor:pointer;
+  overflow:hidden;
+  z-index:9999;
+}
+nav .menu1 {
+  width:25px;
+  height:3px;
+  background-color: #000;
+  top:0px;
+  position:absolute;
+}
+nav .menu2 {
+  width:25px;
+  height:3px;
+  background-color: #000;
+  top:9px;
+  position:absolute;
+}
+nav .menu3 {
+  width:25px;
+  height:3px;
+  background-color: #000;
+  top:18px;
+  position:absolute;
+}
+nav.menu1,nav.menu2,nav.menu3 {
+  transition: all 0.5s ease-out; -o-transition: all 0.5s ease-out; /* Opera */
+  -moz-transition: all 0.5s ease-out; /* Firefox */
+  -webkit-transition: all 0.5s ease-out; /* GoogleChrome, Safari */
+  -ms-transition: all 0.5s ease-out; /* IE */
+}
+nav .menuclick1 {
+  top:8px;
+  -o-transform: rotate(405deg);
+  -moz-transform: rotate(405deg);
+  -webkit-transform: rotate(405deg);
+  -ms-transform: rotate(405deg);
+  transform: rotate(405deg);
+}
+nav .menuclick2 {
+  background-color:rgba(255,255,255,0);
+}
+nav .menuclick3 {
+  top:8px;
+  -o-transform: rotate(-405deg);
+  -moz-transform: rotate(-405deg);
+  -webkit-transform: rotate(-405deg);
+  -ms-transform: rotate(-405deg);
+  transform: rotate(-405deg);
+}
+
+#Drawer{
+  background: rgba(100,63,48,0.8);
+  display: none;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 98;
+  text-align: center;
+  color : white;
+  padding-top: 16%;
+}
+
+#Drawer a {
+  color: white;
+  font-size: 1.6em;
+  letter-spacing: 0.17em;
+  line-height: 260%;
+  text-decoration: none;
+}
+
+.fa-instagram {
+  padding-top: 12%;
+  font-size: 1.8em;
+}
+
+.fa-facebook-square {
+  padding-top: 12%;
+  font-size: 1.8em;
+}
+
+.cf {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bg-slider {
+	width: 100%;
+  height: 400px;
+	background-position:center center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+  padding: 24%;
+  width: 50%;
+}
+
+.lineover {
+  text-align: center;
+}
+
+.lineover img {
+  width: 200px;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.4em;
+  letter-spacing: 0.05em;
+  padding-top: 1%;
+  padding-bottom: 6%;
+  text-align: center;
+}
+
+.about {
+  padding:10% 13%;
+}
+
+h3 {
+  font-size: 1.1em;
+  padding-bottom: 0.5em;
+}
+
+.rawsweet {
+  padding: 12%;
+  background-color: #ffc6c6;
+  background-image: url(../img/rawsweet.png);
+  background-position: right bottom;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}
+
+.material {
+  padding: 12% 7%;
+}
+
+.goodbadimg {
+  width: 80%;
+  margin:2% 5% 8%;
+}
+
+.good {
+  width: 90%;
+  margin: 5% auto;
+}
+
+.bad {
+  width: 90%;
+  margin: 5% auto;
+}
+
+.menu {
+  display: none;
+}
+
+.container-search__sort {
+  margin: 2%;
+  text-align: right;
+}
+
+.spmenu {
+  padding-top: 12%;
+  padding-bottom: 10%;
+  background-color: #ffd797;
+}
+
+.menu-contents {
+display: flex;
+flex-wrap: wrap;
+}
+
+.menu-box {
+  width: 50%;
+  text-align: center;
+}
+
+.img-box01 {
+  height: 80%;
+}
+
+.img-box {
+  height: 300px;
+}
+
+.menu-box img {
+  width: 95%;
+  padding-top: 7%
+}
+
+h4 {
+  display: none;
+}
+
+.cakename {
+  text-align: center;
+  letter-spacing: 0.06em;
+  line-height: 120%;
+  font-size: 1em;
+  padding-bottom: 3%;
+  font-weight: bold;
+}
+
+.caketext {
+  padding: 1% 5%;
+  text-align: left;
+  letter-spacing: 0.06em;
+  font-size: 0.9em;
+  line-height: 115%;
+}
+
+h5 {
+  text-align: center;
+  letter-spacing: 0.06em;
+  line-height: 120%;
+  font-size: 1em;
+  padding:3% 0;
+}
+
+form {
+  margin-bottom: 7%;
+}
+
+.guide {
+  padding: 12% 15%;
+  background-position: center;
+  background-size: cover;
+}
+
+.reserve {
+  width: 100%;
+  margin: 5% auto;
+}
+
+.send {
+  width: 100%;
+  margin: 5% auto;
+}
+
+.preserve {
+  margin-top: 6%;
+}
+
+.sns {
+  display: none;
+}
+
+.message {
+  padding: 12% 15%;
+  background-color: #ffc6c6;
+}
+
+.message1 {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.message2 {
+  text-align: right;
+}
+
+.lineunder {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.lineunder img {
+  width: 200px;
+}
+
+.company {
+  display: none;
+}
+
+.spcompany {
+padding: 12% 5%;
+letter-spacing: 0.07em;
+line-height: 160%;
+}
+
+.spcompany h3 {
+  padding-bottom: 3%;
+}
+
+.spcompany span {
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #ffd797;
+  font-size: 0.6em;
+  letter-spacing: 0.1em;
+  line-height: 130%;
+}
+
+.links {
+  padding-top: 1%;
+}
+
+footer a {
+  color: black;
+}
+
+button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+}
+
+/* micro clearfx */
+.cf:before,
+.cf:after{
+  content: "";
+  display: table;
+}
+.cf:after{ clear: both; }
+.cf{ zoom: 1; } /* For IE 6/7 */
+
+}
